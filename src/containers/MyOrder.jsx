@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { OrderItem } from "../components/OrderItem";
 import "../styles/MyOrder.scss";
 import flecha from "@icons/flechita.svg";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 
 export const MyOrder = () => {
   const { state } = useContext(AppContext);
